@@ -19,7 +19,7 @@
     "gitbook-plugin-jsfiddle": "^1.0.0",
     "gitbook-plugin-wabtheme": "^0.0.1",
     "gitbook-plugin-zingchart": "^2.1.0",
-    "snyk": "^1.235.1"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "scripts": {
