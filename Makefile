@@ -22,7 +22,7 @@ $(EPUB_FILE): clean #$(CHAPTERS)
 		meta/title.txt \
 		$(CHAPTERS) \
 		--epub-cover-image=meta/docker-para-desenvolvedores-1a-edicao-rafael-gomes.png \
-		--epub-stylesheet=meta/stylesheet.css \
+		--css=meta/stylesheet.css \
 		--epub-metadata=meta/metadata.xml \
 		--table-of-contents \
 		--write=epub3
