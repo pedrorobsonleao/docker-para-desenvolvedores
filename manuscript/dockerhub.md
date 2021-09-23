@@ -18,13 +18,13 @@ Você pode explorar a [lista completa](https://hub.docker.com/explore/) por sua 
 
 #### Criando sua conta e um repositório
 
-Agora que você está interessado, vamos criar uma conta na plataforma. Esse processso só pode ser feito através do navegador na [página de inscrição](https://hub.docker.com/register/) do Dockerhub, ou seja, ainda não é possível criar uma conta pelo terminal.
+Agora que você está interessado, vamos criar uma conta na plataforma. Esse processo só pode ser feito através do navegador na [página de inscrição](https://hub.docker.com/register/) do Dockerhub, ou seja, ainda não é possível criar uma conta pelo terminal.
 
 ![Dockerhub](images/Dockerhub.png)
 
 Ao acessar o endereço você deve inserir um novo ID do Docker, (nome de usuário), um endereço de e-mail e uma senha. O navegador irá mostrar uma tela de `Welcome to Docker Hub`. Após o cadastro, entre na conta informada e procure o e-mail intitulado `Please confirm email for your Docker ID`, caso não encontre, não esqueça de checar a sua caixa de spam.
 
-Abra o e-mail e clique em `Confirm Your Email`, o nevagador irá abrir o Dockerhub e redirecionar você para o seu perfil. Nessa página clique em `Create Repository` e preencha um pequeno formulário com o nome do repositório e uma breve descrição, certifique-se de que o repositório esteja como público para que outras pessoas possam visualizar a sua imagem.
+Abra o e-mail e clique em `Confirm Your Email`, o navegador irá abrir o Dockerhub e redirecionar você para o seu perfil. Nessa página clique em `Create Repository` e preencha um pequeno formulário com o nome do repositório e uma breve descrição, certifique-se de que o repositório esteja como público para que outras pessoas possam visualizar a sua imagem.
 
 A conta gratuita possui direito a um repositório privado. Há [planos](https://hub.docker.com/account/billing-plans/) pagos para que mais repositórios privados fiquem disponíveis.
 
@@ -51,11 +51,11 @@ Funciona da seguinte maneira: Usamos o comando `docker tag` e passamos como par�
 
 `docker tag docker-is-cool SEU_DOCKER_ID/docker-is-cool:latest`
 
-Vocẽ pode utilizar o comando `docker image ls` novamente e verá que a imagem que taggeou estará listada na tabela porém com o seu Docker ID no começo, como fizemos no comando acima, se você conseguiu esse resultado podemos enviá-la para a nuvem.
+Você pode utilizar o comando `docker image ls` novamente e verá que a imagem que taggeou estará listada na tabela porém com o seu Docker ID no começo, como fizemos no comando acima, se você conseguiu esse resultado podemos enviá-la para a nuvem.
 
 #### Como dar Push sua imagem
 
-Antes de aprendermos como empurrar nossa imagem para o Dockerhub precisamos fazer login com a conta que nós criamos. Abra o terminal e digite o comando `docker login`, ele não aceita parãmetros mas solicita o seu usuário e senha para realizar o login como no exemplo abaixo.
+Antes de aprendermos como empurrar nossa imagem para o Dockerhub precisamos fazer login com a conta que nós criamos. Abra o terminal e digite o comando `docker login`, ele não aceita parâmetros mas solicita o seu usuário e senha para realizar o login como no exemplo abaixo.
 
 ```
 docker login
