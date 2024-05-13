@@ -27,16 +27,5 @@ $(EPUB_FILE): clean #$(CHAPTERS)
 		--table-of-contents \
 		--write=epub3
 
-$(PDF_FILE): $(CHAPTERS) meta/title.txt
-	pandoc \
-		-o $(PDF_FILE) \
-		meta/title.txt \
-		$(CHAPTERS) \
-		--toc
-
-
-$(MOBI_FILE): $(EPUB_FILE)
-	kindlegen $(EPUB_FILE)
-
-check:
+distcheck check:
 	@echo "checked"
