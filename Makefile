@@ -37,3 +37,6 @@ $(PDF_FILE): $(CHAPTERS) meta/title.txt
 
 $(MOBI_FILE): $(EPUB_FILE)
 	kindlegen $(EPUB_FILE)
+
+check:
+	@echo "checked"
