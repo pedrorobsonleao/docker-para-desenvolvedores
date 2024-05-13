@@ -26,6 +26,3 @@ $(EPUB_FILE): clean #$(CHAPTERS)
 		--epub-metadata=meta/metadata.xml \
 		--table-of-contents \
 		--write=epub3
-
-distcheck check:
-	@echo "checked"
