@@ -42,7 +42,9 @@ Para esse exemplo, usaremos o driver mais utilizado, o [virtualbox](https://docs
 
 Antes de criar o ambiente vamos entender como funciona o comando de criação do docker machine:
 
+```
 docker-machine create --driver=<nome do driver>  <nome do ambiente>
+```
 
 Para o driver **virtualbox** temos alguns parâmetros que podem ser utilizados:
 
