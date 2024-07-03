@@ -16,7 +16,7 @@
     "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-gist": "^1.0.0",
     "gitbook-plugin-github": "^2.0.0",
-    "gitbook-plugin-include-codeblock": "^3.0.2",
+    "gitbook-plugin-include-codeblock": "^3.2.3",
     "gitbook-plugin-jsfiddle": "^1.0.0",
     "gitbook-plugin-wabtheme": "^0.0.1",
     "gitbook-plugin-zingchart": "^2.1.0"
